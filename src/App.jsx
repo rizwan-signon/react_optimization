@@ -1,5 +1,6 @@
 import React from "react";
 import MemoComponent from "./components/01MemoComponent";
+import UseCallBack from "./components/UseCallBack";
 
 const App = () => {
   console.log("App component rendered");
@@ -7,7 +8,7 @@ const App = () => {
   return (
     <div>
       <MemoComponent />
-
+      <UseCallBack />
       <button
         onClick={() => {
           setCount(count + 1);
