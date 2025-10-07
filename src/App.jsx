@@ -1,19 +1,19 @@
 import React from "react";
-import Child from "./components/Child";
+import MemoComponent from "./components/01MemoComponent";
 
 const App = () => {
   console.log("App component rendered");
   const [count, setCount] = React.useState(0);
   return (
     <div>
-      <Child />
-      <p>count in app is {count}</p>
+      <MemoComponent />
+
       <button
         onClick={() => {
           setCount(count + 1);
         }}
       >
-        Click{" "}
+        mount main component
       </button>
     </div>
   );
