@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const useForm = (initailValues = {}) => {
   const [values, setValues] = useState(initailValues);
   const handleChange = (e) => {
@@ -11,3 +13,5 @@ const useForm = (initailValues = {}) => {
 
   return { values, handleChange, resetForm };
 };
+
+export default useForm;
