@@ -3,6 +3,7 @@ import MemoComponent from "./components/01MemoComponent";
 import UseCallBack from "./components/UseCallBack";
 import Debouncing from "./components/Debouncing";
 import UseFormHook from "./components/UseFormHook";
+import Login from "./components/Login";
 
 const App = () => {
   console.log("App component rendered");
@@ -13,7 +14,7 @@ const App = () => {
       <UseCallBack />
       <Debouncing />
       <UseFormHook />
-
+      <Login />
       <button
         onClick={() => {
           setCount(count + 1);
