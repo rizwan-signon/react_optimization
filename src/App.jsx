@@ -4,6 +4,7 @@ import UseCallBack from "./components/UseCallBack";
 import Debouncing from "./components/Debouncing";
 import UseFormHook from "./components/UseFormHook";
 import Login from "./components/Login";
+import Practice from "./components/Practice";
 
 const App = () => {
   console.log("App component rendered");
@@ -15,6 +16,7 @@ const App = () => {
       <Debouncing />
       <UseFormHook />
       <Login />
+      <Practice />
       <button
         onClick={() => {
           setCount(count + 1);
