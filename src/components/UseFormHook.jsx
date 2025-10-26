@@ -9,7 +9,7 @@ const UseFormHook = () => {
   });
   console.log(values);
   return (
-    <div>
+    <div style={{ background: "grey" }}>
       <hr />
       <h2>UseFormHook</h2>
       <input

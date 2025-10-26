@@ -20,7 +20,7 @@ const Debouncing = () => {
   }, [debouncedQuery]);
 
   return (
-    <div style={{}}>
+    <div style={{ background: "green" }}>
       <hr />
       <h3>Debounced Search Example</h3>
       <input

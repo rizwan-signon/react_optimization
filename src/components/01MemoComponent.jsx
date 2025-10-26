@@ -4,7 +4,7 @@ const MemoComponent = ({}) => {
   console.log("MemoComponent rendered");
 
   return (
-    <div>
+    <div style={{ background: "aqua" }}>
       <hr />
       01:this component will not re render uptill any prop changes(memo)
       <hr />

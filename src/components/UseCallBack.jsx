@@ -16,7 +16,7 @@ const UseCallBack = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ background: "maroon" }}>
       <hr />
       <h3>Count: {count}</h3>
       <Child onClick={increment} />

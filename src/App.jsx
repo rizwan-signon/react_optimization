@@ -15,7 +15,7 @@ const App = () => {
       <UseCallBack />
       <Debouncing />
       <UseFormHook />
-      <Login />
+      {/* <Login /> */}
       <Practice />
       <button
         onClick={() => {
