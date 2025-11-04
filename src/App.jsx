@@ -5,25 +5,30 @@ import Debouncing from "./components/Debouncing";
 import UseFormHook from "./components/UseFormHook";
 import Login from "./components/Login";
 import Practice from "./components/Practice";
+import { UseTransition } from "./components/UseTransition";
+import AdvancedSearch from "./components/AdvancedSearch";
 
 const App = () => {
   console.log("App component rendered");
   const [count, setCount] = React.useState(0);
   return (
     <div>
-      <MemoComponent />
+      {/* <MemoComponent />
       <UseCallBack />
       <Debouncing />
       <UseFormHook />
-      {/* <Login /> */}
+      <Login />
       <Practice />
+      <UseTransition />
       <button
         onClick={() => {
           setCount(count + 1);
         }}
       >
         mount main component
-      </button>
+      </button> */}
+
+      <AdvancedSearch />
     </div>
   );
 };
