@@ -7,6 +7,8 @@ import Login from "./components/Login";
 import Practice from "./components/Practice";
 import { UseTransition } from "./components/UseTransition";
 import AdvancedSearch from "./components/AdvancedSearch";
+import VirtualKeyboard from "./components/VirtualKeyboard";
+import HomePage from "./components/HomePage";
 
 const App = () => {
   console.log("App component rendered");
@@ -28,7 +30,9 @@ const App = () => {
         mount main component
       </button> */}
 
-      <AdvancedSearch />
+      {/* <AdvancedSearch /> */}
+      <VirtualKeyboard />
+      <HomePage />
     </div>
   );
 };

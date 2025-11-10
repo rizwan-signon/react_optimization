@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.simple-keyboard {
+  max-height: 260px;
+  transition: transform 0.2s ease;
+  user-select: none;
+}
+
+.hg-button {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .simple-keyboard {
+    font-size: 14px;
+  }
+}
