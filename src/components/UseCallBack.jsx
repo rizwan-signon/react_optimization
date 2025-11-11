@@ -14,7 +14,6 @@ const UseCallBack = () => {
   const increment = useCallback(() => {
     setCount((prev) => prev + 1);
   }, []);
-
   return (
     <div style={{ background: "maroon" }}>
       <hr />

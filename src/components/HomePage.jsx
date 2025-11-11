@@ -4,7 +4,7 @@ const HomePage = () => {
   const [name, setName] = useState("");
   const [bio, setBio] = useState("");
   const [age, setAge] = useState("");
-
+  console.log("the home page is working");
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "auto" }}>
       <h2>Demo Form (Global Virtual Keyboard)</h2>
