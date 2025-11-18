@@ -9,6 +9,7 @@ import { UseTransition } from "./components/UseTransition";
 import AdvancedSearch from "./components/AdvancedSearch";
 import VirtualKeyboard from "./components/VirtualKeyboard";
 import HomePage from "./components/HomePage";
+import UseMemo from "./components/UseMemo";
 
 const App = () => {
   console.log("App component rendered");
@@ -31,8 +32,10 @@ const App = () => {
       </button> */}
 
       {/* <AdvancedSearch /> */}
-      <VirtualKeyboard />
-      <HomePage />
+      {/* <VirtualKeyboard />
+      <HomePage /> */}
+
+      <UseMemo />
     </div>
   );
 };
