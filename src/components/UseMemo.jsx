@@ -9,9 +9,9 @@ const UseMemo = () => {
       total += i;
     }
     return total;
-  }, [c]); // runs once
+  }, []); // runs once
 
-  console.log(expensiveCalculation); // NOT a function
+  console.log(expensiveCalculation);
 
   return (
     <div>
