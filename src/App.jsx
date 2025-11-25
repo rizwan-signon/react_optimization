@@ -11,6 +11,9 @@ import VirtualKeyboard from "./components/VirtualKeyboard";
 import HomePage from "./components/HomePage";
 import UseMemo from "./components/UseMemo";
 
+import Calculator from "./components/Calculator";
+import DateFilterExample from "./components/DataFilterExample";
+
 const App = () => {
   console.log("App component rendered");
   const [count, setCount] = React.useState(0);
@@ -31,11 +34,14 @@ const App = () => {
         mount main component
       </button> */}
 
+      {/* <Calculator /> */}
       {/* <AdvancedSearch /> */}
       {/* <VirtualKeyboard />
       <HomePage /> */}
 
-      <UseMemo />
+      {/* <UseMemo /> */}
+
+      <DateFilterExample />
     </div>
   );
 };
